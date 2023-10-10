@@ -6,23 +6,19 @@ defineProps<{
   secondary?: boolean
   tertiary?: boolean
   quaternary?: boolean
+  ariaText?: string
 }>()
 
 const { component, bindings } = useCtaComponent(useAttrs())
 </script>
 
 <template>
-  <component
-    :is="component"
-    v-bind="bindings"
-    class="cta"
-    :class="{
-      'py-1 px-1.5 rounded-1': secondary || tertiary || quaternary,
-      'secondary': secondary,
-      'tertiary': tertiary,
-      'quaternary': quaternary,
-    }"
-  >
+  <component :is="component" v-bind="bindings" :aria-label="ariaText" class="cta" :class="{
+    'py-1 px-1.5 rounded-1': secondary || tertiary || quaternary,
+    'secondary': secondary,
+    'tertiary': tertiary,
+    'quaternary': quaternary,
+  }">
     <slot />
   </component>
 </template>
@@ -51,7 +47,7 @@ const { component, bindings } = useCtaComponent(useAttrs())
 
   @include breakpoint(md) {
     &:hover {
-     background: $bg-secondary;
+      background: $bg-secondary;
     }
   }
 }
