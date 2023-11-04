@@ -166,6 +166,20 @@ const messages = {
       },
     },
     events: eventMessages.data.it,
+    accessibility: {
+      navbar: {
+        openMenu: 'Apri il menu mobile',
+        toggleIcon: 'Cambia fra tema chiaro e scuro',
+      },
+    },
+    contributing: {
+      openCollective_label: 'Visita la nostra pagina OpenCollective',
+      facebook_label: 'Visita la nostra pagina Facebook',
+      twitter_label: 'Visita la nostra pagina Twitter',
+      linkedin_label: 'Visita il nostro profilo Linkedin',
+      instagram_label: 'Visita la nostra pagina Instagram',
+      discord_label: 'Entra nel nostro server Discord',
+    },
   },
   en: {
     head: {
