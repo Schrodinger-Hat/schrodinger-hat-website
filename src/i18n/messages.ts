@@ -180,7 +180,28 @@ const messages = {
       instagram_label: 'Visita la nostra pagina Instagram',
       discord_label: 'Entra nel nostro server Discord',
     },
+    contributing: {
+      openCollective_label: 'Visita la nostra pagina OpenCollective',
+      facebook_label: 'Visita la nostra pagina Facebook',
+      twitter_label: 'Visita la nostra pagina Twitter',
+      linkedin_label: 'Visita il nostro profilo Linkedin',
+      instagram_label: 'Visita la nostra pagina Instagram',
+      discord_label: 'Entra nel nostro server Discord',
+    },
+    teamPage: {
+      github: 'Pagina github di {name}',
+      linkedin: 'Pagina Linkedin di {name}',
+      twitter: 'Profilo twitte di {name}',
+      website: 'Sito web di {name}',
+    },
+    teamMember: {
+      github: 'Pagina github di {name}',
+      linkedin: 'Pagina Linkedin di {name}',
+      twitter: 'Profilo twitte di {name}',
+      website: 'Sito web di {name}',
+    },
   },
+},
   en: {
     head: {
       app: {
@@ -500,6 +521,12 @@ const messages = {
         discord_label: 'Join our Discord server',
       },
       teamPage: {
+        github: 'Github page of {name}',
+        linkedin: 'Linkedin profile of {name}',
+        twitter: 'Twitter profile of {name}',
+        website: 'Website of {name}',
+      },
+      teamMember: {
         github: 'Github page of {name}',
         linkedin: 'Linkedin profile of {name}',
         twitter: 'Twitter profile of {name}',
