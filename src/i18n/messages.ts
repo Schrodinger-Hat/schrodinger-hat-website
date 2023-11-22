@@ -168,6 +168,7 @@ const messages = {
     events: eventMessages.data.it,
     accessibility: {
       navbar: {
+        logo: 'Benvenuti su Schrodinger Hat',
         openMenu: 'Apri il menu mobile',
         toggleIcon: 'Cambia fra tema chiaro e scuro',
       },
@@ -509,6 +510,7 @@ const messages = {
     },
     accessibility: {
       navbar: {
+        logo: 'Welcome to Schrodinger Hat',
         openMenu: 'Open mobile menu',
         toggleIcon: 'Toggle between light and dark mode',
       },
